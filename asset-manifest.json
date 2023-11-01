@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/cafe/static/css/main.1ada78ce.css",
+    "main.js": "/cafe/static/js/main.6082fdde.js",
+    "static/js/787.d35d5409.chunk.js": "/cafe/static/js/787.d35d5409.chunk.js",
+    "static/media/—Pngtree—coffee logo_5898135.png": "/cafe/static/media/—Pngtree—coffee logo_5898135.cfb9cf06b79704c90e9a.png",
+    "static/media/person-military-to-person-solid.svg": "/cafe/static/media/person-military-to-person-solid.7a39a35c57dc5547e909bd4dc44c48bd.svg",
+    "index.html": "/cafe/index.html",
+    "static/media/bars-solid.svg": "/cafe/static/media/bars-solid.34b6d4f73e126d6b67d3b1d06f2ad1c7.svg",
+    "main.1ada78ce.css.map": "/cafe/static/css/main.1ada78ce.css.map",
+    "main.6082fdde.js.map": "/cafe/static/js/main.6082fdde.js.map",
+    "787.d35d5409.chunk.js.map": "/cafe/static/js/787.d35d5409.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ada78ce.css",
+    "static/js/main.6082fdde.js"
+  ]
+}
