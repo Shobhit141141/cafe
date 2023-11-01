@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&family=Poppins:wght@200&display=swap');
+
+:root{
+  --width:300px;
+
+}
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.logos {
+  width: 25px;
+}
+.container{
+  display: flex;
+  width: 100%;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  margin-top: 30px;
+  padding: 20px; 
+}
+
+.logos2 {
+  width: 70px;
+}
+
+.about , .create , .react {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90vh;
+  padding: 50px;
+  border-bottom: 2px solid black;
+}
+
+h4 {
+  font-family: 'Edu TAS Beginner', cursive;
+  font-size: 30px;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 40px;
+  color: red;
+}
+.logos:active , .logos2:active {
+  transform: scale(0.9);
+}
+.main-section{
+  display: flex;
+}
+.main-content{
+  flex: 4;
+  
+}
+.btns{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 30px;
+  gap: 20px;
+}
+button{
+  width: 150px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 6px;
+  font-size: 20px;
+  transition: linear 0.3s;
+}
+button:active{
+  background-color: rgb(255, 161, 84);
+}
+#side-bar{
+  position: fixed;
+  display: flex;
+  width: var(--width);
+  height: 100vh;
+  left:calc(-1*var(--width));
+  top: 0;
+  background-color: beige;
+  transition: linear 0.3s;
+  
+}
+#side-bar.open{
+  left: 0px;
+}
+#img{
+  position: fixed;
+  width: 30px;
+  left: 20px;
+  z-index: 99;
+  transition: linear 0.3s;
+  cursor: pointer;
+}
+#img.open{
+  left: 320px;
+}
